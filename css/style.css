@@ -1,0 +1,164 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+}
+body {
+    width: 1000px;
+}
+
+.logo-text{
+ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+.text-yellow {
+    color: #cece3c;
+}
+.logo-text h1 {
+   font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 40%;
+}
+.logo-text h5 {
+    padding-left: 35%;
+}
+.navigation {
+     overflow: auto;
+    background-color: white;
+    height: 80px;
+    border-top: 2px solid black;
+     border-bottom: 2px solid black;
+    margin-bottom: 20px;
+     margin-top: 20px;
+}
+.navigation li {
+    display:inline;
+    background-color:antiquewhite;
+    border-radius:25px;
+    margin-right:35px;
+}
+.navigation a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navigation input[type=text] {
+  float: right;
+  padding: 12px;
+  margin-top: 12px;
+  margin-right: 16px;
+ border: 1px solid #ccc;  
+ font-size: 12px;
+ display: block;
+}
+
+.image {
+    padding-left: 1%;
+}
+.image img{
+    width: 970px;
+    height: 350px;
+}
+
+.paragraph {
+       height: 70px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+.paragraph p {
+    text-align:justify;
+    margin-left: 9px;
+    padding-right: 9px;
+    margin-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.work-text {
+ font-family: 'Metal Mania', cursive;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    letter-spacing: 2px; 
+}
+
+
+.gallery{
+    width:970px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+.gallery img {
+    height: 100px;
+    width: 200px;
+    transform: scale(1,1);
+    transition: transform 1s;
+}
+.gallery img:hover{
+    z-index: 10;
+    position: relative;
+    transform: scale(1.25,1.25);
+			
+}
+
+.container1 {
+    
+}
+
+.left-side {
+    width: 48%;
+    float: left;
+}
+.left-side h2 {
+ text-align:justify;
+    
+}
+
+.right-side {
+  width: 48%;
+  float: right;  
+}
+.picture-1 p{
+    display: inline;
+    text-align: center;
+   
+}
+.picture-1,picture-2,picture-3,h2{
+   display: inline;       
+}
+
+.picture-2,picture-3,p{
+    text-align: justify;
+   
+}
+
+.footer-tag {
+    margin-top: 30%;
+    padding: 15px;
+    height: 200px;
+    background-color: aliceblue;
+   
+}
+.left  {
+      width: 30%;
+    float: left;
+   
+}
+.middle{
+    margin-left: 50px;
+    width: 30%;
+    float: left;
+   
+    overflow: hidden;
+}
+.right{
+    width: 30%;
+    float: right;
+     
+}
